@@ -1,0 +1,37 @@
+Tower 4 (G, 11th & 12th Floor) & Tower 5 ( Ground to 13th floor),
+IT/ITES SEZ, M/s Candor Gurgaon One Realty Projects Pvt. Ltd.,
+Village Tikri, Sector - 48, Sohna Road, Gurgaon - 122018, Haryana
+Tel: +91 124 409 5888,?
++91 124 660 4444
+Fax: +91 124 409 5880
+>../../bin/SUN_X86_64/sim -f ~/problem_from.sim -b GTST -j Tp-1 -xp
+
+../../bin/SUN_X86_64/sim -f ~/siptest_sip_b2bua_007.sim -b GTST -j Tp-1 
+> ~/sauki_file.trc
+
+/users/jaipraka>cc_lslabel -v /vobs/NSSU_Main -b br_nssu_99 | grep S2
+
+
+ https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pcgi?
+intropath=Entrypoint%7CGo&forest=cisco.com&_OBJECT_GUID=ADAM%3A%3AGroup&_EVENT=view&_EVENT_PARAM%3APK_ID=64307
+
+Steps to set a new vnc session:
+
+1. Login through sha-view2.
+2. Do ssh to any bgl-xdm-xxx (e.g. bgl-xdm-109)
+3. Give your AD password.
+4. Type vncserver -geometry 1370x770
+5. Type ur session password which u want to have for ur VNC session.
+6. Note the desktop which is allocated to you.
+7. Login through tightvnc and type ur desktop name  and session password.
+8. Ur VNC desktop is now ready to use.
+
+
+
+ V9_8_1_S20_P20_R2
+
+skuddin@sha-x86-view:/vobs/NSSU_Main/callproc/SUN_X86_64>../../bin/SUN_X86_64/sim -f 
+~/siptest_sip_b2bua_001.sim -b GTST -j Tp-1 > ~/sauki_file.trc
+skuddin@sha-x86-view:/vobs/NSSU_Main/callproc/SUN_X86_64>../../bin/SUN_X86_64/sim -f 
+~/siptest_sip_b2bua_001.sim -b GTST -j Tp-1 > ~/sauki_file2.trc
+skuddin@sha-x86-view:/vobs/NSSU_Main/callproc/SUN_X86_64>cc_pwv
